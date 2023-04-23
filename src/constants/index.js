@@ -1,4 +1,4 @@
-// import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, people04  } from "../assets";
 
 export const navLinks = [
   {
@@ -43,32 +43,40 @@ export const navLinks = [
 //   },
 // ];
 
-// export const feedback = [
-//   {
-//     id: "feedback-1",
-//     content:
-//       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-//     name: "Herman Jensen",
-//     title: "Founder & Leader",
-//     img: people01,
-//   },
-//   {
-//     id: "feedback-2",
-//     content:
-//       "Money makes your life easier. If you're lucky to have it, you're lucky.",
-//     name: "Steve Mark",
-//     title: "Founder & Leader",
-//     img: people02,
-//   },
-//   {
-//     id: "feedback-3",
-//     content:
-//       "It is usually people in the money business, finance, and international trade that are really rich.",
-//     name: "Kenn Gallagher",
-//     title: "Founder & Leader",
-//     img: people03,
-//   },
-// ];
+export const feedback = [
+  {
+    id: "feedback-1",
+    content:
+      "I highly recommend the Orange Way for anyone looking for guidance in navigating the complex world of higher education. The team is knowledgeable, professional, and dedicated to helping students achieve their goals. They provided me with personalized support throughout the college application process and helped me find the perfect fit for my academic and career aspirations. Thanks to their help, I was able to secure a spot at my dream school and am now thriving in my studies. I couldn't have done it without them!",
+    name: "Neha Kalia",
+    title: "Netherlands",
+    img: people01,
+  },
+  {
+    id: "feedback-2",
+    content:
+      "I was impressed with the level of support and expertise provided by the Orange Way. They helped me navigate the college application process and find the right fit for my goals. Thanks to their guidance, I am now studying at my dream school. I highly recommend this consultancy to anyone looking for support in higher education.",
+    name: "Saksham Bishnoi",
+    title: "Ireland",
+    img: people02,
+  },
+  {
+    id: "feedback-3",
+    content:
+      "I am extremely satisfied with the services provided by the Orange Way for Canada. They were extremely helpful and knowledgeable about the Canadian education system and helped me find the perfect fit for my academic and career aspirations. The team was dedicated and provided me with personalized support throughout the application process. Thanks to their help, I was able to secure a spot at one of Canada's top universities.",
+    name: "Jasjyot Singh",
+    title: "Canada",
+    img: people03,
+  },
+  {
+    id: "feedback-4",
+    content:
+      "I recently got an admit from Boston University with a scholarship and I wanted to thank you for helping me with my application journey. Your docs like LORs and the SOP really helped me to draft good applications for the colleges that I was applying to. Thank you for your help and advice along the procedure and I cannot be grateful enough to you for that!!",
+    name: "Aishwarya Jayant Rauthan",
+    title: "USA",
+    img: people04,
+  },
+];
 
 export const stats = [
   {
