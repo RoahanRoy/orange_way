@@ -1,16 +1,3 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
 @tailwind base;
@@ -20,9 +7,9 @@ code {
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    #eec19b -278.56%,
+    #b68a68 -78.47%,
+    #4b3928 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
@@ -30,6 +17,7 @@ code {
 * {
   scroll-behavior: smooth;
 }
+
 
 .text-gradient {
   background: radial-gradient(
@@ -62,18 +50,18 @@ code {
 .bg-black-gradient {
   background: linear-gradient(
     144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    #eec19b -278.56%,
+    #b68a68 -78.47%,
+    #4b3928 91.61%
   );
 }
 
 .bg-black-gradient-2 {
   background: linear-gradient(
     -168.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    #eec19b -278.56%,
+    #b68a68 -78.47%,
+    #4b3928 91.61%
   );
 }
 
@@ -86,7 +74,7 @@ code {
 }
 
 .bg-discount-gradient {
-  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  background: linear-gradient(125.17deg, #d7793d 0%, #85533a 100%);
 }
 
 .box-shadow {
